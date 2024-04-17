@@ -13,7 +13,7 @@ This assignment should prove that a student:
 
 ## Requirements
 
-Record a Loom video following the steps described below. Each step serves as acceptance criteria, so please make sure the outcomes described for each step match what you see on your screen while recording the video. This video will serve as proof that:
+Record a Loom video following the steps described below. Each step serves as acceptance criteria, so please make sure the outcomes described for each step match what you see on your screen while recording the video.
 
 **HINT:** Recording a Loom video with a Loom desktop client app lets you pause while recording, test the next set of instructions, and then resume recording to demonstrate the outcomes of those steps.
 
