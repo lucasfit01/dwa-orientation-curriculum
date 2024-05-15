@@ -48,6 +48,7 @@ Here is a list of software you should have installed and configured before you b
     - [Instructions to install the "Indent-rainbow" extension in VSCode](#instructions-to-install-the-indent-rainbow-extension-in-vscode)
     - [Instructions to install the "Auto close tag" extension in VSCode](#instructions-to-install-the-auto-close-tag-extension-in-vscode)
     - [Instructions to install the "Auto rename tag" extension in VSCode](#instructions-to-install-the-auto-rename-tag-extension-in-vscode)
+  - [How to reset the password for the UNIX user in WSL](#how-to-reset-the-password-for-the-unix-user-in-wsl)
 
 ## Google Chrome Browser
 
@@ -194,9 +195,9 @@ wsl --set-default-version 2
 
 6.Run the "Ubuntu" application to complete the installation and set up the UNIX user.
 
-7.Make sure to remember the password you set, as you will need it frequently in the future.
+7.Make sure to remember the password you set, as you will need it frequently in the future. If for any reason you forgot the password of the UNIX user you created follow the [How to reset the password for the UNIX user in WSL](#how-to-reset-the-password-for-the-unix-user-in-wsl) instructions.
 
-8.Right click the top of your ubuntu window and go to `properties`
+8.Right-click the top of your Ubuntu window and go to Properties. If you don't see `Properties` in the dropdown list, make sure to run the Ubuntu app as an administrator.
 
 a. Make sure to click the box that says `use Ctr + Shift + C/V as Copy/Paste`
 b. This will make it easier to copy stuff over to your ubuntu terminal both now and in the future
@@ -368,7 +369,7 @@ As long as it doesn't say 'Command Not Found' we're good to go
 
 #### Test your SSH connection to Github
 
-Run the command `ssh -T git@github.com` to test your connection to GitHub. Wait wor the message "Hi user.name! You've successfully authenticated, but GitHub does not provide shell access."
+Run the command `ssh -T git@github.com` to test your connection to GitHub. Wait for the message "Hi user.name! You've successfully authenticated, but GitHub does not provide shell access."
 
 [Back to TOP](#table-of-contents)
 
@@ -433,5 +434,20 @@ Run the command `ssh -T git@github.com` to test your connection to GitHub. Wait 
 2. Open the "Extensions" sidebar (press `shift + ctrl + X`).
 3. Search for the "auto rename tag" extension, which should have over 15 million installations.
 4. Proceed to install the extension by clicking on the "Install" button.
+
+[Back to TOP](#table-of-contents)
+
+---
+
+## How to reset the password for the UNIX user in WSL
+
+1. Open "Command Prompt" as an administrator.
+2. Run the command `wsl -u root` to run the distribution as a root user.
+3. Use the command `passwd userName`, replacing userName with the name of the user you created.
+4. You will be asked to set the password. Note that for security reasons, the system will not display your typing, so type carefully.
+5. Retype the same password when prompted and press 'enter'.
+6. If you see the message `passwd: password updated successfully`, the process is complete.
+7. Use the command `logout` to exit the root WSL session.
+8. Close the command prompt.
 
 [Back to TOP](#table-of-contents)

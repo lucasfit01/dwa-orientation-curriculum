@@ -90,11 +90,13 @@ The recorded video will prove that:
 
 ## NOTES
 
+### Spaces in folder names
+
 The proper naming convention for your projects should exclude spaces in the file and folder names. However, it is fine to use spaces for regular folders in your file system.
 
 To create a folder with spaces in a multi-word name, you need to wrap it with double quotes when creating or referring to it in the terminal.
 
-### Example
+#### Example
 
 ```sh
 mkdir "Some Folder"
