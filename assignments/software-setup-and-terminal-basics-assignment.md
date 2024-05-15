@@ -64,7 +64,7 @@ The recorded video will prove that:
     1. In your Terminal, execute `npm -v`.
     2. The output should display the version of NPM in the format 'x.y.z'.
   - [ ] GIT is installed, git user is set.
-    1. In your terminal, execute `git -version`.
+    1. In your terminal, execute `git --version`.
     2. The output should display the git version in the format 'git version x.yy.z'.
     3. In your terminal, execute `git config user.name`.
     4. The output should display the git user's name.
