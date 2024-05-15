@@ -54,7 +54,7 @@ The recorded video will prove that:
     1. In your Terminal, execute `echo $SHELL`.
     2. Ensure the output ends with ".../zsh".
   - [ ] NVM is installed.
-    1. In your Terminal, execute `nvm -v`.
+    1. In your Terminal, execute `nvm --version`.
     2. The output should display the version of NVM in the format 'x.y.z' or 'x.yy.z'.
   - [ ] NodeJS is installed with NVM.
     1. In your Terminal, execute `nvm ls`.
@@ -64,14 +64,14 @@ The recorded video will prove that:
     1. In your Terminal, execute `npm -v`.
     2. The output should display the version of NPM in the format 'x.y.z'.
   - [ ] GIT is installed, git user is set.
-    1. In your terminal, execute 'git -v'.
+    1. In your terminal, execute `git -version`.
     2. The output should display the git version in the format 'git version x.yy.z'.
     3. In your terminal, execute `git config user.name`.
     4. The output should display the git user's name.
     5. In your terminal, execute `git config user.email`.
     6. The output should display the git user's email.
   - [ ] SSH key is set and connected to your GitHub account.
-    1. In your terminal, execute `ssh -T git@github`.
+    1. In your terminal, execute `ssh -T git@github.com`.
     2. If asked to verify the fingerprint, answer 'Yes'.
     3. The output should say: 'Hi USERNAME! You've successfully authenticated...'.
 - [ ] You can use basic terminal commands.
@@ -87,3 +87,16 @@ The recorded video will prove that:
 ## Submitting the assignment
 
 - Submit a ".txt" file with a link to the recorded loom video through the form in the assignment page.
+
+## NOTES
+
+The proper naming convention for your projects should exclude spaces in the file and folder names. However, it is fine to use spaces for regular folders in your file system.
+
+To create a folder with spaces in a multi-word name, you need to wrap it with double quotes when creating or referring to it in the terminal.
+
+### Example
+
+```sh
+mkdir "Some Folder"
+cd "Some Folder"
+```
