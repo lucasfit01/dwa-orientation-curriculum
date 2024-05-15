@@ -364,8 +364,8 @@ As long as it doesn't say 'Command Not Found' we're good to go
 ### Instructions to set the SSH key for GITHUB
 
 1. Launch the Ubuntu application.
-2. Follow the [Generate new SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent?platform=linux) instructions to generate a new SSH key. Be sure to omit the "Generating a new SSH key for a hardware security key" section.
-3. Follow the [Add a new SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account?platform=linux&tool=webui) instructions to add a new SSH key to your GitHub account.
+2. Follow the [Generate new SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent?platform=linux) instructions to generate a new SSH key. Ensure the "Linux" tab is active. Be sure to omit the "Generating a new SSH key for a hardware security key" section.
+3. Follow the [Add a new SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account?platform=linux&tool=webui) instructions to add a new SSH key to your GitHub account. Ensure the "Linux" tab is active.
 
 #### Test your SSH connection to Github
 
@@ -375,15 +375,7 @@ Run the command `ssh -T git@github.com` to test your connection to GitHub. Wait 
 
 ---
 
-## Setup VSCode (Optional)
-
-### Instructions to set the tab default size to 2 spaces
-
-1. Launch the VSCode application.
-2. Press `Shift + Control + P` to open the Command Palette.
-3. Enter "Settings" in the search field that appears after the caret symbol (>)
-4. Select the option "Preferences: Open Settings (UI)" from the list of suggestions.
-5. Enter "tab size" in the search field and set "2" in the "Editor: Tab Size" setting field.
+## Setup VSCode
 
 ### Instructions to install the Prettier extension in VSCode
 
@@ -414,21 +406,29 @@ Run the command `ssh -T git@github.com` to test your connection to GitHub. Wait 
 6. Enable the checkbox for "Editor: Format On Save" to automatically format your code when you save the file.
 7. Close the Settings tab.
 
-### Instructions to install the "Indent-rainbow" extension in VSCode
+### Instructions to set the tab default size to 2 spaces (optional)
+
+1. Launch the VSCode application.
+2. Press `Shift + Control + P` to open the Command Palette.
+3. Enter "Settings" in the search field that appears after the caret symbol (>)
+4. Select the option "Preferences: Open Settings (UI)" from the list of suggestions.
+5. Enter "tab size" in the search field and set "2" in the "Editor: Tab Size" setting field.
+
+### Instructions to install the "Indent-rainbow" extension in VSCode (Optional)
 
 1. Launch the VSCode application.
 2. Open the "Extensions" sidebar by pressing `Shift + Ctrl + X`.
 3. Search for the "indent-rainbow" extension, which has over 5 million installations.
 4. Click on the "Install" button to install the extension.
 
-### Instructions to install the "Auto close tag" extension in VSCode
+### Instructions to install the "Auto close tag" extension in VSCode (optional)
 
 1. Launch the VSCode application.
 2. Open the "Extensions" sidebar (press `shift + ctrl + X`).
 3. Search for the "auto close tag" extension, which should have over 10 million installations.
 4. Proceed to install the extension by clicking on the "Install" button.
 
-### Instructions to install the "Auto rename tag" extension in VSCode
+### Instructions to install the "Auto rename tag" extension in VSCode (optional)
 
 1. Launch the VSCode application.
 2. Open the "Extensions" sidebar (press `shift + ctrl + X`).
