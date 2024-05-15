@@ -12,6 +12,7 @@ Note: Remember to press "enter" after copying and pasting the command into the t
 
 Here is a list of software you should have installed and configured before you begin the program to optimize your learning experience with Devslopes:
 
+- [System Requirements](#system-requirements)
 - [Homebrew](#homebrew)
   - [Instructions to install Homebrew](#instructions-to-install-homebrew)
   - [Test your Homebrew installation](#test-your-homebrew-installation)
@@ -54,6 +55,14 @@ Here is a list of software you should have installed and configured before you b
   - [Instructions to install the "Indent-rainbow" extension in VSCode](#instructions-to-install-the-indent-rainbow-extension-in-vscode)
   - [Instructions to install the "Auto close tag" extension in VSCode](#instructions-to-install-the-auto-close-tag-extension-in-vscode)
   - [Instructions to install the "Auto rename tag" extension in VSCode](#instructions-to-install-the-auto-rename-tag-extension-in-vscode)
+
+## System Requirements
+
+MacOS v12 (Monterey) or a higher version is required to successfully complete all the computer setup instructions for MacOS users.
+
+1. Launch the MacOS Terminal application.
+2. Run the command `sw_vers`.
+3. Make sure the output includes the ProductVersion of 12.XX.XX or higher.
 
 ## Homebrew
 
