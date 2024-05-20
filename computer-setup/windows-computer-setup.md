@@ -42,6 +42,7 @@ Here is a list of software you should have installed and configured before you b
       - [Test your SSH connection to Github](#test-your-ssh-connection-to-github)
   - [Setup VSCode (Optional)](#setup-vscode-optional)
     - [Instructions to set the tab default size to 2 spaces](#instructions-to-set-the-tab-default-size-to-2-spaces)
+    - [Instructions to install the Live Server extension in VSCode](#instructions-to-install-the-live-server-extension-in-vscode)
     - [Instructions to install the Prettier extension in VSCode](#instructions-to-install-the-prettier-extension-in-vscode)
     - [Instructions to make Prettier your default code formatting tool](#instructions-to-make-prettier-your-default-code-formatting-tool)
     - [Instructions for automatically formatting code when saving a file](#instructions-for-automatically-formatting-code-when-saving-a-file)
@@ -376,6 +377,14 @@ Run the command `ssh -T git@github.com` to test your connection to GitHub. Wait 
 ---
 
 ## Setup VSCode
+
+### Instructions to install the Live Server extension in VSCode
+
+1. Launch the VSCode application.
+2. Open the "Extensions" sidebar by pressing `Shift + Command + X`.
+3. Search for the "Live Server" extension, which should have over 48 million installations.
+4. Click on the "Install" button to install the extension.
+5. Ensure the "Go Live" button appears in the VSCode status bar.
 
 ### Instructions to install the Prettier extension in VSCode
 

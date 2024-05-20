@@ -49,6 +49,7 @@ Here is a list of software you should have installed and configured before you b
     - [Test your SSH connection to Github](#test-your-ssh-connection-to-github)
 - [Setup VSCode (optional)](#setup-vscode-optional)
   - [Instructions to set the tab default size to 2 spaces](#instructions-to-set-the-tab-default-size-to-2-spaces)
+  - [Instructions to install the Live Server extension in VSCode](#instructions-to-install-the-live-server-extension-in-vscode)
   - [Instructions to install the Prettier extension in VSCode](#instructions-to-install-the-prettier-extension-in-vscode)
   - [Instructions to make Prettier your default code formatting tool](#instructions-to-make-prettier-your-default-code-formatting-tool)
   - [Instructions for automatically formatting code when saving a file](#instructions-for-automatically-formatting-code-when-saving-a-file)
@@ -288,7 +289,16 @@ Node Version Manager (NVM) is a tool that allows developers to easily install, m
 
 1. Launch the MacOS Terminal application.
 2. Run the command `brew install nvm` to install NVM.
-3. Check if the .zshrc file exists in the user's folder. If it exists, please, skip step 4.
+3. Copy the commands from the "Next steps" section of the terminal output. Please note that although the command may look very similar to the one below, it’s likely to be slightly different. Make sure you copy the entire command that you see in your terminal.
+
+```sh
+export NVM_DIR="$HOME/.nvm"
+  [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
+  [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+
+```
+
+4. Check if the .zshrc file exists in the user's folder. If it exists, please, skip step 4.
 
 ```sh
 cd ~
@@ -298,19 +308,11 @@ cd ~
 ls -a
 ```
 
-4. Run the command `touch ~/.zshrc` to create ZSH configuration file.
-5. Run the command `open ~/.zshrc` to open ZSH configuration file in the default text editor.
-6. Copy the following commands and paste into the configuration file.
-
-```sh
-export NVM_DIR="$HOME/.nvm"
-  [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
-  [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
-
-```
-
-7. Save the file and close the default text editor.
-8. Restart the MacOS Terminal application.
+5. Run the command `touch ~/.zshrc` to create ZSH configuration file.
+6. Run the command `open ~/.zshrc` to open ZSH configuration file in the default text editor.
+7. Paste the command you copied in step 3 into the configuration file.
+8. Save the file and close the default text editor.
+9. Restart the MacOS Terminal application.
 
 [Video guide on how to install Node Version Manager (NVM)](https://www.loom.com/share/5fcb934cc3d941ccbe64c41da5eb5ade?sid=cb6fe6c7-6941-448b-8346-5406c8e3aa60)
 
@@ -419,6 +421,14 @@ Run the command `ssh -T git@github.com` to test your connection to GitHub. Wait 
 3. Enter "Settings" in the search field that appears after the caret symbol (>)
 4. Select the option "Preferences: Open Settings (UI)" from the list of suggestions.
 5. Enter "tab size" in the search field and set "2" in the "Editor: Tab Size" setting field.
+
+### Instructions to install the Live Server extension in VSCode
+
+1. Launch the VSCode application.
+2. Open the "Extensions" sidebar by pressing `Shift + Command + X`.
+3. Search for the "Live Server" extension, which should have over 48 million installations.
+4. Click on the "Install" button to install the extension.
+5. Ensure the "Go Live" button appears in the VSCode status bar.
 
 ### Instructions to install the Prettier extension in VSCode
 
